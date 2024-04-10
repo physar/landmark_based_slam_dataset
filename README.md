@@ -18,7 +18,7 @@ This dataset was published at Radish: the Robotics Data Set Repository initiated
 Because in 2024 the Standard Platform league plays on a much bigger field, a new dataset is recorded from the original five points: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)], but on a field of 9 x 6m, with the landmarks at locations [(-467.5,-317.5), (0, -317.5), (467.5, -317.5), (-467.5, 317.5), (0, 317.5), (467.5, 317.5)] - all cm from the origin at the center of the field. The landmarks are placed with their center 15cm from the lines marking the outside of the field. This setup makes it more difficult to recognize the 6 landmarks, because of the larger distance, which makes the landmarks smaller objects. 
 This could be have been corrected by scaling up of the five points with the same amount as the field, but that was not done (yet), because the next part of the dataset (SLAM challenge of 2004 and 20050 already have a larger spread.
 
-<img src=https://staff.science.uva.nl/a.visser/research/nao/2024/TechnicalFieldWithTags.jpg" alt="Gutmann setup at large field" width="300"/>
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/TechnicalFieldWithTags.jpg" alt="Gutmann setup at large field" width="300"/>
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
 
