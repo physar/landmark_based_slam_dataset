@@ -7,11 +7,11 @@ This dataset is a recreation of these experiments, but now with a Nao robot, on 
 
 ## Gutmann dataset
 
-The Gutmann dataset consisted of the following five points on a Soccer field of 3 x 2m: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)] - all cm from the origin at the center of the field. The original dataset was not including the images, it consisted of a textfile containing the relative movement of the robot and the bearings to the observed landmarks.
+The Gutmann dataset consisted of the following five points on a Soccer field of 3 x 2m: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)] - all cm from the origin at the center of the field. The original dataset was not including the images, it consisted of a textfile containing the relative movement of the robot and the bearings to the observed Aibo landmarks.
 
  <img src="./setup/fieldSetup.png" alt="Gutmann field setup" width="300"/>
 
-The position of the landmarks were specified in the 2003 rules of the 4 Legged league [2]: [(-220,-145), (0, -145), (220, -145), (-220, 145), (0, 145), (220, 145)] - all cm from the origin at the center of the field. The landmarks at   *y=+145cm* and *y=-145cm*  have respectively their pink band (also refered to as the color 'magneta') at the bottom and top . At *x=+220cm* and *y=-220cm* the bands are respectively  yellow and sky-blue (also refered to as the color 'cyan'), the distinctive band of the two landmarks at *x=+0cm* is specified as green in the 2003 rules (although a brighter green than the one used in this dataset).
+The colors of the landmarks were specified in the 2003 rules of the 4 Legged league [2], yet Gutmann used a smaller field. The landmark locations were: [(-150,-100), (0, -100), (150, -100), (-150, 100), (0, 100), (150, 100)] - all cm from the origin at the center of the field. The landmarks at   *y=+145cm* and *y=-145cm*  have respectively their pink band (also refered to as the color 'magneta') at the bottom and top . At *x=+220cm* and *y=-220cm* the bands are respectively  yellow and sky-blue (also refered to as the color 'cyan'), the distinctive band of the two landmarks at *x=+0cm* is specified as green in the 2003 rules (although a brighter green than the one used in this dataset). The IDs of the landmarks were coded with the combination of the following numbers  0 -> green 1 -> magenta 2 -> yellow 3 -> blue.
 
 This dataset was published at Radish: the Robotics Data Set Repository initiated by Andrew Howard and Nicholas Roy in 2003 [3], in concert with the OpenSLAM initiative [4] with allowed researchers to publish their SLAM algorithms (initiated by Cyrill Stachniss, Udo Frese, Giorgio Grisetti in 2006). The dataset is no longer available from Radish, but can still be downloaded from a MIT-server: [aibo-slcmp.tar.gz]{https://dspace.mit.edu/bitstream/handle/1721.1/62255/aibo-slcmp.tar.gz?sequence=2}.
 
@@ -21,6 +21,8 @@ This could be have been corrected by scaling up of the five points with the same
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/TechnicalFieldWithTags.jpg" alt="Gutmann setup at large field" width="600"/>
 
 ### Observations
+
+In the Gutmann dataset it is important that the Aibo landmarks were observed. The distance was estimated by the size of the landmark in the image, the orientation by the distance from the center of the image scaled by the field of view of the robot.
 
 #### Point 1 - (0,0)
 
@@ -33,7 +35,7 @@ This could be have been corrected by scaling up of the five points with the same
 *Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks.*
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
-*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'.*
+*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 0.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. *
 
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
