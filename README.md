@@ -24,19 +24,16 @@ This could be have been corrected by scaling up of the five points with the same
 
 #### Point 1 - (0,0)
 
-<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b.png" alt="Gutmann point 1 - orientation 0" width="300"/> 
-
-* Orientation 0 degrees, towards Yellow goal. Only the goal is visible, the penalty marker, the penalty L-intersections, a red dot from the 2004 challenge, and a NaoMark #107. No Aibo landmarks. *
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b.png" alt="Gutmann point 1 - orientation 0" width="300"/> <br>
+*Orientation 0 degrees, towards Yellow goal. Only the goal is visible, the penalty marker, the penalty L-intersections, a red dot from the 2004 challenge, and a NaoMark #107. No Aibo landmarks.*
 
 #### Point 2 - (50,0)
 
-<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b.png" alt="Gutmann point 2 - orientation 0" width="300"/> 
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
+*Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks.*
 
-* Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks. *
-
-<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> 
-
-* Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. *
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
+*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'.*
 
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
