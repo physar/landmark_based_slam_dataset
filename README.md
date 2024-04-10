@@ -7,5 +7,9 @@ This dataset is a recreation of these experiments, but now with a Nao robot, on 
 
 ## Gutmann dataset
 
+The Gutmann dataset consisted of the following five points on a Soccer field of 3 x 2m: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)] - all cm from the origin at the center of the field. The original dataset was not including the images, it consisted of a textfile containing the relative movement of the robot and the bearings to the observed landmarks.
+
+
+
 [1]  J.-S. Gutmann and D. Fox, “An experimental comparison of localization methods continued,” in Proceedings of the IEEE/RSJ International
 Conference on Intelligent Robots and Systems (IROS’02), October 2002
