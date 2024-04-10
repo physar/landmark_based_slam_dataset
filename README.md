@@ -22,7 +22,7 @@ This could be have been corrected by scaling up of the five points with the same
 
 ### Observations
 
-In the Gutmann dataset it is important that the Aibo landmarks were observed. The distance was estimated by the size of the landmark in the image, the orientation by the distance from the center of the image scaled by the field of view of the robot.
+In the Gutmann dataset it is important that the Aibo landmarks were observed. The distance was estimated by the size of the landmark in the image, the orientation by the distance from the center of the image scaled by the field of view of the robot. The field of view of the Nao robot is horizontally 60.97 deg [6].
 
 #### Point 1 - (0,0)
 
@@ -35,7 +35,7 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 *Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks.*
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
-*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 0.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. *
+*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 0.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. The landmark can be seen at pixel 190 of 320 wide image, which is equivalent with an angle of 5.75 deg. The difference could be a not perfect 90 degree rotation (can be checked with the angle of the field-boundery line).*
 
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
