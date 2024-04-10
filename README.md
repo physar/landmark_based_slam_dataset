@@ -27,16 +27,20 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 #### Point 1 - (0,0)
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b.png" alt="Gutmann point 1 - orientation 0" width="300"/> <br>
-*Orientation 0 degrees, towards Yellow goal. Only the goal is visible, the penalty marker, the penalty L-intersections, a red dot from the 2004 challenge, and a NaoMark #107. No Aibo landmarks.*
+*Orientation 0 degrees, towards Yellow goal. Only the goal is visible, the penalty marker, the penalty L-intersections, a red dot from the 2004 challenge, and a NaoMark #107. No Aibo landmarks. In Gutmann's log this observation would be noted as "obs: 1 0.0 0.0 0.0 0*
 
 #### Point 2 - (50,0)
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
-*Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks.*
+*Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks. In Gutmann's log this observation would be noted as "obs: 2 500.0 0.0 0.0 0**
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
-*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation 90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 0.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. The landmark can be seen at pixel 190 of 320 wide image, which is equivalent with an angle of 5.75 deg. The difference could be a not perfect 90 degree rotation (can be checked with the angle of the field-boundery line).*
+*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation -90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 -90.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. The landmark can be seen at pixel 190 of 320 wide image, which is equivalent with an angle of 5.75 deg. The difference could be a not perfect 90 degree rotation (can be checked with the angle of the field-boundery line - which is 11 pixels higher at the right, equivalent with an angle of 1.9 deg.).*
 
+#### Point 3 - (50,-50)
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 0" width="300"/> <br>
+*Same orientation as previous observation. Orientation -90 degrees. The Y-intersection at the center line is still blocked by a calibration board,  NaoMark #85 is less obscured by the Aibo landmark 'pink-green', the red dot from the 2004 challenge is no longer visible. In Gutmann's log this observation would be noted as "obs: 4 500.0 -500.0 -90.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 2721mm and 10.59 deg or 0.185 rad. The landmark can be seen at pixel 243 of 320 wide image, which is equivalent with an angle of 15.91 deg. Quite a large difference. The  90 degree rotation is now nearly perfect (can be checked with the angle of the field-boundery line - which is slightly higher at the right).*
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
 
