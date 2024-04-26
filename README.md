@@ -10,7 +10,7 @@ If you use this dataset, please refer to the following [publication](https://sta
 @misc{Oomes2024,
    author={Oomes, Stijn and Visser, Arnoud},
    title="Position and Altitude of the Nao Camera Head from Two Points on the Soccer Field plus the Gravitational Direction",
-   year="2024",
+   year={2024},
    month="Apr.",
    howpublished={submitted to RoboCup 2024: Robot Soccer World Cup XXVII,  Lecture Notes on Artificial Intelligence, Springer},
 }
