@@ -196,11 +196,11 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann5b270.png" alt="Gutmann point 5 - orientation +270" width="300"/> <br>
 *Same orientation as previous observation, but moved 50cm forwards. Absolute Orientation still 270 degrees. The Y-intersection at the center line is still blocked by a calibration board. NaoMark #85 is visible, together with the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 10 -1000.0 000.0 270.0 1 ( 1:0 distance bearing)".*
 
-<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 5 - orientation +315" width="300"/> <br>
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann5b315.png" alt="Gutmann point 5 - orientation +315" width="300"/> <br>
 *Same location as previous observation, but 45 deg rotated. Absolute Orientation &pm; 315 degrees. The X-intersection at the center circle is visible, together with a L-intersection from the yellow penalty area. Two NaoMark are visible, #85 behind the Aibo landmark 'pink-green'. Also the 'pink-yellow' landmark is visible. In Gutmann's log this observation would be noted as "obs: 11 -1000.0 0.0 315.0 2 ( 1:0 distance bearing ) (1:2 distance bearing )".*
 
-<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 5 - orientation +315" width="300"/> <br>
-*Same location as previous observation, but rotated back towards point 1. Absolute Orientation 0 degrees. The center at the center circle is visible, and the yellow penalty point. Point 2 of Gutmann is marked with yellow tape, directly ahead. Two second NaoMark is obscured by a Nao robot. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 12 -1000.0 0.0 0.0 0".*
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann5b360.png" alt="Gutmann point 5 - orientation +360" width="300"/> <br>
+*Same location as previous observation, but rotated back towards point 1. Absolute Orientation 360 degrees. The center at the center circle is visible, and the yellow penalty point. Point 2 of Gutmann is marked with yellow tape, directly ahead. Two second NaoMark is obscured by a Nao robot. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 12 -1000.0 0.0 0.0 0".*
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
 
