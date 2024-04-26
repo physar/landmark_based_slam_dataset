@@ -5,6 +5,16 @@ Most of the recent SLAM datasets directly start with many observations and many 
 A good example is the Gutmann dataset [1], which used an Aibo robot walking a trajectory between 5 points, observing 6 landmarks on the corner of a soccer field. This experiment was later the origin of the RoboCup 4-Legged league SLAM challenge in 2004 and 2005.
 This dataset is a recreation of these experiments, but now with a Nao robot, on a much larger Standard Platform League soccer field.
 
+If you use this dataset, please refer to the following [publication](https://staff.fnwi.uva.nl/a.visser/publications/3D_height_estimation.pdf):
+<tt>
+@misc{Oomes2024,
+author="Oomes, Stijn and Visser, Arnoud",
+title="Position and Altitude of the Nao Camera Head from Two Points on the Soccer Field plus the Gravitational Direction",
+year="2024",
+month="Apr.",
+howpublished={submitted to RoboCup 2024: Robot Soccer World Cup XXVII,  Lecture Notes on Artificial Intelligence, Springer},
+</tt>
+
 ## RoboCup 2005 SLAM challenge
 
 The locations of the  RoboCup 2005 SLAM challenge consisted of the following five points on a Soccer field of 6 x 4m: [(130,120), (220, -150), (-160,-120), (-210,90), (270,0)] - all cm from the origin at the center of the field. 
