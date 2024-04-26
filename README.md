@@ -8,11 +8,12 @@ This dataset is a recreation of these experiments, but now with a Nao robot, on 
 If you use this dataset, please refer to the following [publication](https://staff.fnwi.uva.nl/a.visser/publications/3D_height_estimation.pdf):
 <tt>
 @misc{Oomes2024,
-author="Oomes, Stijn and Visser, Arnoud",
-title="Position and Altitude of the Nao Camera Head from Two Points on the Soccer Field plus the Gravitational Direction",
-year="2024",
-month="Apr.",
-howpublished={submitted to RoboCup 2024: Robot Soccer World Cup XXVII,  Lecture Notes on Artificial Intelligence, Springer},
+   author={Oomes, Stijn and Visser, Arnoud},
+   title="Position and Altitude of the Nao Camera Head from Two Points on the Soccer Field plus the Gravitational Direction",
+   year="2024",
+   month="Apr.",
+   howpublished={submitted to RoboCup 2024: Robot Soccer World Cup XXVII,  Lecture Notes on Artificial Intelligence, Springer},
+}
 </tt>
 
 ## RoboCup 2005 SLAM challenge
