@@ -48,6 +48,15 @@ The locations of the  RoboCup 2004 SLAM challenge consisted of the following fiv
  <img src="./setup/SlamChallengeLocations2004.png" alt="RoboCup 2004 SLAM setup" width="500"/><br>
  <i>RoboCup 2004 SLAM challenge setup, Fig. 2 from [Technical Challenges for the RoboCup 2004 Legged League Competition](https://spl.robocup.org/wp-content/uploads/downloads/Challenges2004.pdf)</i>
 
+  ### Observations
+
+The locations were selected from the RoboCup 2004 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field.
+
+#### Point 1 - (160,100)
+
+<img src="./red1/point1/imagetop.jpg" alt="Point 1 - orientation -135 deg" width="300"/> <br>
+<i>Orientation &pm; -135 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark.</i>
+
 ## Gutmann dataset
 
 The Gutmann dataset consisted of the following five points on a Soccer field of 3 x 2m: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)] - all cm from the origin at the center of the field. The original dataset was not including the images, it consisted of a textfile containing the relative movement of the robot and the bearings to the observed Aibo landmarks.
