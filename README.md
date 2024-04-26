@@ -9,6 +9,10 @@ This dataset is a recreation of these experiments, but now with a Nao robot, on 
 
 The locations of the  RoboCup 2005 SLAM challenge consisted of the following five points on a Soccer field of 6 x 4m: [(130,120), (220, -150), (-160,-120), (-210,90), (270,0)] - all cm from the origin at the center of the field. 
 
+ <img src="./setup/SlamChallengeLocations2025png" alt="Gutmann field setup" width="300"/><br>
+ <i>RoboCup 2005 SLAM challenge setup, Fig. 2 from [Technical Challenges for the RoboCup 2005
+Legged League Competition}(https://spl.robocup.org/wp-content/uploads/downloads/Challenges2005.pdf)</i>
+
 ## RoboCup 2004 SLAM challenge
 
 The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
