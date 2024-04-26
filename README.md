@@ -26,6 +26,10 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 <img src="./black1/point2/imagetop.jpg" alt="Point 2 - orientation -180 deg" width="300"/> <br>
 <i>Orientation &pm; -180 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corners the blue-magneta and magneta-blue landmarks.</i>
 
+The [OptiTrack recording](./black1/point2/2blackTake%202024-04-10%2003.30.10%20PM.csv) shows for frame 1680 the following line (14.0 sec after the start of the recording), which indicates a location of (2.791, 0.003)m and -28.58 deg:<br>
+<tt>1680,14.000000,-23.337509,-43.690590,-28.580748,2.791063,0.471910,0.002637,0.000190</tt><br>
+Point 2 was measured at [time 15:30:24:5](./black1/point2/record.csv), the Optitrack recording was started at [time 15:30:10:482](./black1/point2/2blackTake%202024-04-10%2003.30.10%20PM.csv)
+
 #### Point 3 - (220,-150)
 
 <img src="./black1/point3/imagetop.jpg" alt="Point 3 - orientation -225 deg" width="300"/> <br>
