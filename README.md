@@ -33,9 +33,13 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 
 #### Point 4 - (-160,-120)
 
-<img src="./black1/point4/imagetop.jpg" alt="Point 3 - orientation 45 deg" width="300"/> <br>
+<img src="./black1/point4/imagetop.jpg" alt="Point 4 - orientation 45 deg" width="300"/> <br>
 <i>Orientation  &pm; 45 degrees, towards the Yellow goal.  Only one goal-post is visible, the center circle, two NaoMarks. In the corner the magneta-yellow landmark.</i>
 
+#### Point 5- (-210, 90)
+
+<img src="./black1/point5/imagetop.jpg" alt="Point 5 - orientation 135 deg" width="300"/> <br>
+<i>Orientation  &pm; 135 degrees, towards the Yellow goal.  Both goal-posts are visible, the center circle, two NaoMarks. In the corner the yellow-magneta landmark.</i>
 
 ## RoboCup 2004 SLAM challenge
 
