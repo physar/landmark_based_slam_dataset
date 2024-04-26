@@ -77,6 +77,11 @@ The locations were selected from the RoboCup 2004 SLAM challenge, but the orient
 <img src="./red1/punt5/imagetop.jpg" alt="Point 5 - orientation 45 deg" width="300"/> <br>
 <i>Orientation &pm; 45 degrees, towards the yellow goal. Both goal-posts are visible, no X-intersections of the center circle, two NaoMarks. In the corner the yellow-magneta landmark.</i>
 
+The [OptiTrack recording](./red1/punt5/point5.csv) shows for frame 2808 (23.4 sec after the start of the recording), which indicates a location of (-1.00, -0.52)m:<br>
+<tt>2808,23.400000,-141.168152,69.230156,131.184998,-1.006973,0.462300,-0.518683,0.000325</tt>
+Point 5 was measured at [time 14:04:46:618], the Optitrack recording was started at [time 14:04:23:220](./red1/punt5/point5.csv)
+
+
 
 ## Gutmann dataset
 
