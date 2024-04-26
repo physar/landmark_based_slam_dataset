@@ -21,8 +21,8 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 <img src="./black1/point1/imagetop.jpg" alt="Point 1 - orientation -135 deg" width="300"/> <br>
 <i>Orientation &pm; -135 degrees, towards the Blue goal. Only one goal-post is visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark.</i>
 
-The [OptiTrack recording](./black1/point1/1blackTake%202024-04-10%2003.24.49%20PM.csv) shows for frame 1116 the following line (9.3 sec after the start of the recording), which indicates a location of (1.296, -1.217)m and -5.51 deg:<br>
-<tt>1116,9.300000,-8.090113,-6.018557,-5.512065,1.295966,0.459921,-1.216736,0.000320</tt><br>
+The [OptiTrack recording](./black1/point1/1blackTake%202024-04-10%2003.24.49%20PM.csv) shows for frame 1152 the following line (9.6 sec after the start of the recording), which indicates a location of (1.296, -1.217)m and -5.49 deg:<br>
+<tt>1152,9.600000,-8.105729,-6.102250,-5.494285,1.295658,0.460063,-1.216674,0.000313</tt><br>
 Point 1 was measured at [time 15:24:59:179](./black1/point1/record.csv), the Optitrack recording was started at [time 15:24:49:530](./black1/point1/1blackTake%202024-04-10%2003.24.49%20PM.csv)
 
 
