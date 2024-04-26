@@ -12,6 +12,16 @@ The locations of the  RoboCup 2005 SLAM challenge consisted of the following fiv
  <img src="./setup/SlamChallengeLocations2005.png" alt="RoboCup 2005 SLAM setup" width="500"/><br>
  <i>RoboCup 2005 SLAM challenge setup, Fig. 2 from [Technical Challenges for the RoboCup 2005 Legged League Competition](https://spl.robocup.org/wp-content/uploads/downloads/Challenges2005.pdf)</i>
 
+ ### Observations
+
+The locations were selected from the RoboCup 2005 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field.
+
+#### Point 1 - (130,120)
+
+<img src="./black1/point1/imagetop.jpg" alt="Point 1 - orientation -135 deg" width="300"/> <br>
+*Orientation -135 degrees, towards Blue goal. Only one goal-post is visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark. *
+
+
 ## RoboCup 2004 SLAM challenge
 
 The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field 4.5 x 3m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
