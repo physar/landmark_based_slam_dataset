@@ -158,7 +158,13 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 *Orientation 0 degrees, towards Yellow goal. Only the goal is visible, the penalty marker, the penalty L-intersections, a red dot from the 2004 challenge, and a NaoMark #107. No Aibo landmarks. In Gutmann's log this observation would be noted as "obs: 1 0.0 0.0 0.0 0*
 
 <img src="https://staff.fnwi.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b135.png" alt="Gutmann point 1 - orientation +135" width="300"/> <br>
-*Orientation +225 degrees, towards a blue corner. Two NaoMarks are visible and the Aibo landmark 'blue-pink'. A yellow dot of the next Gutmann locations is visible.  This is the observation after the observation at point 3. In Gutmann's log this observation would be noted as "obs: 6 0.0 0.0 135.0 1 (3:1) (distance bearing)".*
+*Orientation +135 degrees, towards a blue corner. Two NaoMarks are visible and the Aibo landmark 'blue-pink'. A yellow dot of the next Gutmann locations is visible.  This is the observation after the observation at point 3. In Gutmann's log this observation would be noted as "obs: 6 0.0 0.0 135.0 1 ( 3:1 distance bearing )".*
+
+<img src="https://staff.fnwi.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b150.png" alt="Gutmann point 1 - orientation +150" width="300"/> <br>
+*Same location as the previous observation, rotated 15 deg towards the next location. Absolute orientation &pm; +150 degrees, towards the yellow dot. One NaoMarks  and the Aibo landmark 'blue-pink'are visible.Two yellow dots with the next Gutmann locations are visible.  In Gutmann's log this observation would be noted as "obs: 7 0.0 0.0 150.0 1 ( 3:1 distance bearing)".*
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 1 - orientation +360" width="300"/> <br>
+*Same location as the start of the observation, but with the head pointing more downwards. The previous observation was at point 5, moved 2x 50cm forward. Absolute Orientation 0 degrees. The  yellow penalty area is visible. One NaoMark visible, the other one obscured. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 13 0.0 0.0 0.0 0".*
 
 #### Point 2 - (50,0)
 
@@ -166,16 +172,35 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 *Orientation 0 degrees, towards Yellow goal. Still the same clues as the goal, the penalty marker, the penalty L-intersections, the red dot from the 2004 challenge, , and NaoMark #107 are visible. No Aibo landmarks. In Gutmann's log this observation would be noted as "obs: 2 500.0 0.0 0.0 0**
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann2b90.png" alt="Gutmann point 2 - orientation 90" width="300"/> <br>
-*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation -90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 -90.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. The landmark can be seen at pixel 190 of 320 wide image, which is equivalent with an angle of 5.75 deg. The difference could be a not perfect 90 degree rotation (can be checked with the angle of the field-boundery line - which is 11 pixels higher at the right, equivalent with an angle of 1.9 deg.).*
+*Same location, rotated 90 degrees to the side with the landmarks with the pink-band below. Orientation -90 degrees. The Y-intersection at the center line is blocked by a calibration board, another red dot from the 2004 challenge, and a NaoMark #85 is partly obscured by the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 3 500.0 0.0 -90.0 1 ( 1:0 distance bearing )" - for this observation the ground truth is 3214mm and 8.95 deg or 0.156 rad. The landmark can be seen at pixel 190 of 320 wide image, which is equivalent with an angle of 5.75 deg. The difference could be a not perfect 90 degree rotation (can be checked with the angle of the field-boundery line - which is 11 pixels higher at the right, equivalent with an angle of 1.9 deg.).*
 
 #### Point 3 - (50,-50)
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann3b.png" alt="Gutmann point 3 - orientation 0" width="300"/> <br>
-*Same orientation as previous observation. Orientation -90 degrees. The Y-intersection at the center line is still blocked by a calibration board,  NaoMark #85 is less obscured by the Aibo landmark 'pink-green', the red dot from the 2004 challenge is no longer visible. In Gutmann's log this observation would be noted as "obs: 4 500.0 -500.0 -90.0 1 (1:0) (distance bearing)" - for this observation the ground truth is 2721mm and 10.59 deg or 0.185 rad. The landmark can be seen at pixel 243 of 320 wide image, which is equivalent with an angle of 15.91 deg. Quite a large difference. The  90 degree rotation is now nearly perfect (can be checked with the angle of the field-boundery line - which is only slightly higher at the right).*
+*Same orientation as previous observation. Orientation -90 degrees. The Y-intersection at the center line is still blocked by a calibration board,  NaoMark #85 is less obscured by the Aibo landmark 'pink-green', the red dot from the 2004 challenge is no longer visible. In Gutmann's log this observation would be noted as "obs: 4 500.0 -500.0 -90.0 1 ( 1:0 distance bearing )" - for this observation the ground truth is 2721mm and 10.59 deg or 0.185 rad. The landmark can be seen at pixel 243 of 320 wide image, which is equivalent with an angle of 15.91 deg. Quite a large difference. The  90 degree rotation is now nearly perfect (can be checked with the angle of the field-boundery line - which is only slightly higher at the right).*
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann3b135.png" alt="Gutmann point 3 - orientation +135" width="300"/> <br>
-*Same location as previous observation. Rotated 135 degrees, so absolute -225 deg or +135 deg. The center circle is visible, but only one X-intersection and the center-center. Two NaoMarks are visible and the Aibo landmark 'blue-pink'. Two yellow dots with the next Gutmann locations are visible. In Gutmann's log this observation would be noted as "obs: 5 500.0 -500.0 -225.0 1 (3:1) (distance bearing)".*
+*Same location as previous observation. Rotated 135 degrees, so absolute -225 deg or +135 deg. The center circle is visible, but only one X-intersection and the center-center. Two NaoMarks are visible and the Aibo landmark 'blue-pink'. Two yellow dots with the next Gutmann locations are visible. In Gutmann's log this observation would be noted as "obs: 5 500.0 -500.0 -225.0 1 ( 3:1 distance bearing )".*
 
+#### Point 4 - (-100,50)
+
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 4 - orientation +150" width="300"/> <br>
+*Same orientation as previous observation at point 1. Absolute Orientation 150 degrees. The L-intersections in the penalty area are visible. Also the L-intersection before the Aibo landmark 'blue-pink' is visible. Only one  NaoMark is visible. In Gutmann's log this observation would be noted as "obs: 8 -1000.0 500.0 150.0 1 ( 3:1 distance bearing )".*
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b270.png" alt="Gutmann point 4 - orientation +270" width="300"/> <br>
+*Same location as previous observation, but now rotated towards point 5. Absolute Orientation 270 degrees. The Y-intersection at the center line is still blocked by a calibration board. From here NaoMark #85 is no longer obscured by Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 9 -1000.0 500.0 270.0 1 ( 1:0 distance bearing )".*
+
+#### Point 5 - (-100,0)
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann5b270.png" alt="Gutmann point 5 - orientation +270" width="300"/> <br>
+*Same orientation as previous observation, but moved 50cm forwards. Absolute Orientation still 270 degrees. The Y-intersection at the center line is still blocked by a calibration board. NaoMark #85 is visible, together with the Aibo landmark 'pink-green'. In Gutmann's log this observation would be noted as "obs: 10 -1000.0 000.0 270.0 1 ( 1:0 distance bearing)".*
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 5 - orientation +315" width="300"/> <br>
+*Same location as previous observation, but 45 deg rotated. Absolute Orientation &pm; 315 degrees. The X-intersection at the center circle is visible, together with a L-intersection from the yellow penalty area. Two NaoMark are visible, #85 behind the Aibo landmark 'pink-green'. Also the 'pink-yellow' landmark is visible. In Gutmann's log this observation would be noted as "obs: 11 -1000.0 0.0 315.0 2 ( 1:0 distance bearing ) (1:2 distance bearing )".*
+
+<img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann4b150.png" alt="Gutmann point 5 - orientation +315" width="300"/> <br>
+*Same location as previous observation, but rotated back towards point 1. Absolute Orientation 0 degrees. The center at the center circle is visible, and the yellow penalty point. Point 2 of Gutmann is marked with yellow tape, directly ahead. Two second NaoMark is obscured by a Nao robot. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 12 -1000.0 0.0 0.0 0".*
 
 [1]  J.-S. Gutmann and D. Fox, “[An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)”, in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’02), October 2002.
 
