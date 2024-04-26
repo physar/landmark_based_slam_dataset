@@ -23,7 +23,8 @@ The locations of the  RoboCup 2004 SLAM challenge consisted of the following fiv
 
 The Gutmann dataset consisted of the following five points on a Soccer field of 3 x 2m: [(0,0), (50,0), (50,-50), (-100,50), (-100,0)] - all cm from the origin at the center of the field. The original dataset was not including the images, it consisted of a textfile containing the relative movement of the robot and the bearings to the observed Aibo landmarks.
 
- <img src="./setup/fieldSetup.png" alt="Gutmann field setup" width="300"/>
+ <img src="./setup/fieldSetup.png" alt="Gutmann field setup" width="300"/><br>
+ <i> Gutmann dataset setup, Fig. 4 from [An experimental comparison of localization methods continued](https://web.archive.org/web/20060105074037id_/http://www.informatik.uni-freiburg.de:80/~gutmann/papers/gutmann-fox-iros02.pdf)</i>
 
 The colors of the landmarks were specified in the 2003 rules of the 4 Legged league [2], yet Gutmann used a smaller field. The landmark locations were: [(-150,-100), (0, -100), (150, -100), (-150, 100), (0, 100), (150, 100)] - all cm from the origin at the center of the field. The landmarks at   *y=+145cm* and *y=-145cm*  have respectively their pink band (also refered to as the color 'magneta') at the bottom and top . At *x=+220cm* and *y=-220cm* the bands are respectively  yellow and sky-blue (also refered to as the color 'cyan'), the distinctive band of the two landmarks at *x=+0cm* is specified as green in the 2003 rules (although a brighter green than the one used in this dataset). The IDs of the landmarks were coded with the combination of the following numbers  0 -> green 1 -> magenta 2 -> yellow 3 -> blue.
 
@@ -64,4 +65,4 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 
 [4] Cyrill Stachniss, Udo Frese, Giorgio Grisetti, "[OpenSLAM](https://openslam-org.github.io/links.html), established in 2006.
 
-[5] RoboCup Technical Committee, "[RoboCup Standard Platform League (NAO) Rule Book]{https://spl.robocup.org/wp-content/uploads/SPL-Rules-2024.pdf}", March 20, 2024.
+[5] RoboCup Technical Committee, "[RoboCup Standard Platform League (NAO) Rule Book](https://spl.robocup.org/wp-content/uploads/SPL-Rules-2024.pdf)", March 20, 2024.
