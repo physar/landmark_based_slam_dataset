@@ -14,7 +14,7 @@ The locations of the  RoboCup 2005 SLAM challenge consisted of the following fiv
 
 ## RoboCup 2004 SLAM challenge
 
-The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
+The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field 4.5 x 3m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
 
  <img src="./setup/SlamChallengeLocations2004.png" alt="RoboCup 2004 SLAM setup" width="500"/><br>
  <i>RoboCup 2004 SLAM challenge setup, Fig. 2 from [Technical Challenges for the RoboCup 2004 Legged League Competition](https://spl.robocup.org/wp-content/uploads/downloads/Challenges2004.pdf)</i>
