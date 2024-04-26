@@ -41,6 +41,10 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 <img src="./black1/point5/imagetop.jpg" alt="Point 5 - orientation 135 deg" width="300"/> <br>
 <i>Orientation  &pm; 135 degrees, towards the Yellow goal.  Both goal-posts are visible, the center circle, two NaoMarks. In the corner the yellow-magneta landmark.</i>
 
+The [OptiTrack recording](./black1/point5/5blackTake%202024-04-10%2004.11.07%20PM.csv) shows for frame 2064 the following line (17.2 sec after the start of the recording), which indicates a location of (-2.096, -0.901)m and 140.62 deg:<br>
+<tt>2064,17.200000,-145.657486,69.694809,140.623260,-2.095767,0.442517,-0.900913,1.331205</tt><br>
+Point 5 was measured at [time 16:11:24:532](./black1/point5/record.csv), the Optitrack recording was started at [time 16:11:07:382](./black1/point5/5blackTake%202024-04-10%2004.11.07%20PM.csv)
+
 ## RoboCup 2004 SLAM challenge
 
 The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field 4.5 x 3m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
