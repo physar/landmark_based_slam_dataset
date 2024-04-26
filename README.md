@@ -62,14 +62,18 @@ The locations were selected from the RoboCup 2004 SLAM challenge, but the orient
 <img src="./red1/punt2/imagetop.jpg" alt="Point 2 - orientation -200 deg" width="300"/> <br>
 <i>Orientation &pm; -200 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-blue landmark.</i>
 
+he [OptiTrack recording](./red1/punt3/point2.csv) shows for frame 2712 (22.6 sec after the start of the recording), which indicates a location of (1.849,0.330)m and -33.41 deg:<br>
+<tt>2712,22.600000,-24.722082,-59.764900,-33.413120,1.849066,0.451569,0.330089,0.000327</tt><br>
+Point 2 was measured at [time 13:49:28:812](./red1/punt2/record.csv), the Optitrack recording was started at [time 13:49:06:258](./red1/punt2/point2.csv)
+
 #### Point 3 - (50,-100)
 
 <img src="./red1/punt3/imagetop.jpg" alt="Point 3 - orientation -250 deg" width="300"/> <br>
 <i>Orientation &pm; -250 degrees, towards the magneta-on-top side. No goal-posts are visible, only one X-intersection of the center circle, only one NaoMark. Both the magneta-green landmarks as the magneta-blue landmark are visible.</i>
 
-The [OptiTrack recording](./red1/punt3/point3.csv) shows for frame 1368 (11.4 sec after the start of the recording), which indicates a location of (-0.568,1.091)m and -154.87 deg:<br>
+The [OptiTrack recording](./red1/punt3/point3.csv) shows for frame 1368 (11.4 sec after the start of the recording), which indicates a location of (0.568,1.091)m and -154.87 deg:<br>
 <tt>1368,11.400000,-138.824661,-68.192184,-154.865723,0.568025,0.458726,1.090729,0.000527</tt><br>
-Point 4 was measured at [time 13:53:21:766](./red1/punt3/record.csv), the Optitrack recording was started at [time 13:53:10:386](./red1/punt3/point3.csv)
+Point 3 was measured at [time 13:53:21:766](./red1/punt3/record.csv), the Optitrack recording was started at [time 13:53:10:386](./red1/punt3/point3.csv)
 
 
 #### Point 4 - (-210, 0)
