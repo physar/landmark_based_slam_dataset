@@ -67,10 +67,16 @@ The locations were selected from the RoboCup 2004 SLAM challenge, but the orient
 <img src="./red1/punt3/imagetop.jpg" alt="Point 3 - orientation -250 deg" width="300"/> <br>
 <i>Orientation &pm; -250 degrees, towards the magneta-on-top side. No goal-posts are visible, only one X-intersection of the center circle, only one NaoMark. Both the magneta-green landmarks as the magneta-blue landmark are visible.</i>
 
-#### Point 4 - (180,-30)
+#### Point 4 - (-210, 0)
 
 <img src="./red1/punt4/imagetop.jpg" alt="Point 4 - orientation 0 deg" width="300"/> <br>
-<i>Orientation &pm; 0 degrees, towards the yellow goal. NBoth goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-yellow landmark.</i>
+<i>Orientation &pm; 0 degrees, towards the yellow goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-yellow landmark.</i>
+
+#### Point 5 - (-210, 0)
+
+<img src="./red1/punt5/imagetop.jpg" alt="Point 5 - orientation 45 deg" width="300"/> <br>
+<i>Orientation &pm; 45 degrees, towards the yellow goal. Both goal-posts are visible, no X-intersections of the center circle, two NaoMarks. In the corner the yellow-magneta landmark.</i>
+
 
 ## Gutmann dataset
 
