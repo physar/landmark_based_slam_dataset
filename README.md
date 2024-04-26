@@ -14,12 +14,17 @@ The locations of the  RoboCup 2005 SLAM challenge consisted of the following fiv
 
  ### Observations
 
-The locations were selected from the RoboCup 2005 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field.
+The locations were selected from the RoboCup 2005 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field. Note that the Optitrack uses a different coordinate system, so the sign of the y-values have to be swapped. The orientation around the z-axis also have to be mirrored.
 
 #### Point 1 - (130,120)
 
 <img src="./black1/point1/imagetop.jpg" alt="Point 1 - orientation -135 deg" width="300"/> <br>
 <i>Orientation &pm; -135 degrees, towards the Blue goal. Only one goal-post is visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark.</i>
+
+The [OptiTrack recording](./black1/point1/1blackTake%202024-04-10%2003.24.49%20PM.csv) shows for frame 1116 the following line (9.3 sec after the start of the recording), which indicates a location of (1.296, -1.217)m and -5.51 deg:<br>
+<tt>1116,9.300000,-8.090113,-6.018557,-5.512065,1.295966,0.459921,-1.216736,0.000320</tt><br>
+Point 1 was measured at [time 15:24:59:179](./black1/point1/record.csv), the Optitrack recording was started at [time 15:24:49:530](./black1/point1/1blackTake%202024-04-10%2003.24.49%20PM.csv)
+
 
 #### Point 2 - (270,0)
 
