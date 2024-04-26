@@ -50,7 +50,7 @@ The locations of the  RoboCup 2004 SLAM challenge consisted of the following fiv
 
   ### Observations
 
-The locations were selected from the RoboCup 2004 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field.
+The locations were selected from the RoboCup 2004 SLAM challenge, but the orientation was chosen that when possible the center circle was visible. The location of the Aibo landmarks is as defined by Gutmann, but scaled up to the current soccer field. Note that the Optitrack uses a different coordinate system, so the sign of the y-values have to be swapped. The orientation around the z-axis also have to be mirrored.
 
 #### Point 1 - (160,100)
 
@@ -62,17 +62,22 @@ The locations were selected from the RoboCup 2004 SLAM challenge, but the orient
 <img src="./red1/punt2/imagetop.jpg" alt="Point 2 - orientation -200 deg" width="300"/> <br>
 <i>Orientation &pm; -200 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-blue landmark.</i>
 
-#### Point 3 - (180,-30)
+#### Point 3 - (50,-100)
 
 <img src="./red1/punt3/imagetop.jpg" alt="Point 3 - orientation -250 deg" width="300"/> <br>
 <i>Orientation &pm; -250 degrees, towards the magneta-on-top side. No goal-posts are visible, only one X-intersection of the center circle, only one NaoMark. Both the magneta-green landmarks as the magneta-blue landmark are visible.</i>
+
+The [OptiTrack recording](./red1/punt3/point3.csv) shows for frame 1368 (11.4 sec after the start of the recording), which indicates a location of (-0.568,1.091)m and -154.87 deg:<br>
+<tt>1368,11.400000,-138.824661,-68.192184,-154.865723,0.568025,0.458726,1.090729,0.000527</tt><br>
+Point 4 was measured at [time 13:53:21:766](./red1/punt3/record.csv), the Optitrack recording was started at [time 13:53:10:386](./red1/punt3/point3.csv)
+
 
 #### Point 4 - (-210, 0)
 
 <img src="./red1/punt4/imagetop.jpg" alt="Point 4 - orientation 0 deg" width="300"/> <br>
 <i>Orientation &pm; 0 degrees, towards the yellow goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-yellow landmark.</i>
 
-The [OptiTrack recording](./red1/punt5/point5.csv) shows for frame 1544 (12.8 sec after the start of the recording), which indicates a location of (-2.11, -0.01)m and 163.63 deg:<br>
+The [OptiTrack recording](./red1/punt4/point4.csv) shows for frame 1544 (12.8 sec after the start of the recording), which indicates a location of (-2.115, -0.014)m and 163.63 deg:<br>
 <tt>1536,12.800000,-168.416702,48.799397,163.633789,-2.114778,0.462572,-0.014030,1.243124</tt><br>
 Point 4 was measured at [time 13:59:28:717](./red1/punt4/record.csv), the Optitrack recording was started at [time 13:59:15:530](./red1/punt4/point4.csv)
 
@@ -81,7 +86,7 @@ Point 4 was measured at [time 13:59:28:717](./red1/punt4/record.csv), the Optitr
 <img src="./red1/punt5/imagetop.jpg" alt="Point 5 - orientation 45 deg" width="300"/> <br>
 <i>Orientation &pm; 45 degrees, towards the yellow goal. Both goal-posts are visible, no X-intersections of the center circle, two NaoMarks. In the corner the yellow-magneta landmark.</i>
 
-The [OptiTrack recording](./red1/punt5/point5.csv) shows for frame 2808 the following line (23.4 sec after the start of the recording), which indicates a location of (-1.00, -0.52)m and 131.18 deg:<br>
+The [OptiTrack recording](./red1/punt5/point5.csv) shows for frame 2808 the following line (23.4 sec after the start of the recording), which indicates a location of (-1.007, -0.519)m and 131.18 deg:<br>
 <tt>2808,23.400000,-141.168152,69.230156,131.184998,-1.006973,0.462300,-0.518683,0.000325</tt><br>
 Point 5 was measured at [time 14:04:46:618](./red1/punt5/record.csv), the Optitrack recording was started at [time 14:04:23:220](./red1/punt5/point5.csv)
 
