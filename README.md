@@ -19,14 +19,17 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 #### Point 1 - (130,120)
 
 <img src="./black1/point1/imagetop.jpg" alt="Point 1 - orientation -135 deg" width="300"/> <br>
-<i>Orientation -135 degrees, towards Blue goal. Only one goal-post is visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark.</i>
+<i>Orientation &pm; -135 degrees, towards the Blue goal. Only one goal-post is visible, the center circle, two NaoMarks. In the corner the blue-magneta landmark.</i>
 
 #### Point 2 - (270,0)
 
 <img src="./black1/point2/imagetop.jpg" alt="Point 2 - orientation -180 deg" width="300"/> <br>
-<i>Orientation -180 degrees, towards Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corners the blue-magneta and magneta-blue landmarks.</i>
+<i>Orientation &pm; -180 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corners the blue-magneta and magneta-blue landmarks.</i>
 
+#### Point 3 - (220,-150)
 
+<img src="./black1/point3/imagetop.jpg" alt="Point 3 - orientation -225 deg" width="300"/> <br>
+<i>Orientation  &pm; -225 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-blue landmark.</i>
 
 ## RoboCup 2004 SLAM challenge
 
