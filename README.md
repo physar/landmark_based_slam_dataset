@@ -31,6 +31,12 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 <img src="./black1/point3/imagetop.jpg" alt="Point 3 - orientation -225 deg" width="300"/> <br>
 <i>Orientation  &pm; -225 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-blue landmark.</i>
 
+#### Point 4 - (-160,-120)
+
+<img src="./black1/point4/imagetop.jpg" alt="Point 3 - orientation 45 deg" width="300"/> <br>
+<i>Orientation  &pm; 45 degrees, towards the Yellow goal.  Only one goal-post is visible, the center circle, two NaoMarks. In the corner the magneta-yellow landmark.</i>
+
+
 ## RoboCup 2004 SLAM challenge
 
 The locations of the  RoboCup 2004 SLAM challenge consisted of the following five points on a Soccer field 4.5 x 3m: [(160,100), (180, -30), (50,-100), (-210,0), (-100,50)] - all cm from the origin at the center of the field. 
