@@ -31,6 +31,10 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 <img src="./black1/point3/imagetop.jpg" alt="Point 3 - orientation -225 deg" width="300"/> <br>
 <i>Orientation  &pm; -225 degrees, towards the Blue goal. Both goal-posts are visible, the center circle, two NaoMarks. In the corner the magneta-blue landmark.</i>
 
+The [OptiTrack recording](./black1/point3/3blackTake%202024-04-10%2003.35.10%20PM.csv) shows for frame 1176 the following line (9.8 sec after the start of the recording), which indicates a location of (2.207, 1.504)m and -67.82 deg:<br>
+<tt>1176,9.800000,-58.773560,-71.774658,-67.818047,2.206528,0.473990,1.504187,0.000455</tt><br>
+Point 3 was measured at [time 15:35:20:725](./black1/point3/record.csv), the Optitrack recording was started at [time 15:35:10:906](./black1/point3/3blackTake%202024-04-10%2003.35.10%20PM.csv)
+
 #### Point 4 - (-160,-120)
 
 <img src="./black1/point4/imagetop.jpg" alt="Point 4 - orientation 45 deg" width="300"/> <br>
@@ -38,7 +42,7 @@ The locations were selected from the RoboCup 2005 SLAM challenge, but the orient
 
 The [OptiTrack recording](./black1/point4/black4Take%202024-04-10%2004.05.45%20PM.csv) shows for frame 1728 the following line (14.4 sec after the start of the recording), which indicates a location of (-1.512, 1.298)m and 175.40 deg:<br>
 <tt>1728,14.400000,-172.479370,7.005368,175.402313,-1.512706,0.454025,1.297968,0.000424</tt><br>
-Point 5 was measured at [time 16:06:00:140](./black1/point4/record.csv), the Optitrack recording was started at [time 16:05:45:715](./black1/point4/black4Take%202024-04-10%2004.05.45%20PM.csv)
+Point 4 was measured at [time 16:06:00:140](./black1/point4/record.csv), the Optitrack recording was started at [time 16:05:45:715](./black1/point4/black4Take%202024-04-10%2004.05.45%20PM.csv)
 
 #### Point 5- (-210, 90)
 
