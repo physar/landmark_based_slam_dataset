@@ -164,7 +164,7 @@ In the Gutmann dataset it is important that the Aibo landmarks were observed. Th
 *Same location as the previous observation, rotated 15 deg towards the next location. Absolute orientation &pm; +150 degrees, towards the yellow dot. One NaoMarks  and the Aibo landmark 'blue-pink'are visible.Two yellow dots with the next Gutmann locations are visible.  In Gutmann's log this observation would be noted as "obs: 7 0.0 0.0 150.0 1 ( 3:1 distance bearing)".*
 
 <img src="https://staff.science.uva.nl/a.visser/research/nao/2024/first_recording/guttmann1b360.png" alt="Gutmann point 1 - orientation +360" width="300"/> <br>
-*Same location as the start of the observation, but with the head pointing more downwards. The previous observation was at point 5, moved 2x 50cm forward. Absolute Orientation 0 degrees. The  yellow penalty area is visible. One NaoMark visible, the other one obscured. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 13 0.0 0.0 0.0 0".*
+*Same location as the start of the observation, but with the head more tilted downwards. The previous observation was at point 5, moved 2x 50cm forward. Absolute Orientation 0 degrees. The  yellow penalty area is visible. One NaoMark visible, the other one obscured. No Aibo landmark are visible. In Gutmann's log this observation would be noted as "obs: 13 0.0 0.0 0.0 0".*
 
 #### Point 2 - (50,0)
 
